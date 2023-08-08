@@ -1,12 +1,13 @@
 import React from 'react'
 import Logo from '../../images/logo.svg'
+import './header.css'
 
 const Header = () => {
   return (
     <header>
         <div className="header">
             <img src={Logo} alt="logo" />
-            <ul>
+            <ul className='header-ul'>
                 <li><a href="#Pricing">Pricing</a></li>
                 <li><a href="#Product">Product</a></li>
                 <li><a href="#AboutUs">About Us</a></li>
