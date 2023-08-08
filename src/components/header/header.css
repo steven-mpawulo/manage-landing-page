@@ -2,8 +2,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
+.logo {
+    height: 40px;
+    margin-left: 25px;
+}
 .header-ul {
     display: flex;
     list-style-type: none;
@@ -16,12 +20,3 @@
 
 }
 
-.get-started-button {
-    height: 40px;
-    width: 10%;
-    background-color:  hsl(12, 88%, 59%);
-    border: 2px solid  hsl(12, 88%, 59%);
-    border-radius: 20px;
-    color: white;
-    margin-right: 25px;
-}
