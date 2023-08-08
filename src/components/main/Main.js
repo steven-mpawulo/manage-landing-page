@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../header/Header'
 import Illustration from '../../images/illustration-intro.svg'
 
 const Main = () => {
   return (
-    <div className='main'>
+    <main>
+      <div className='main'>
       <div className="first-scetion">
         <div className="first-section-left">
           <h1>Bring everyone together to build better products</h1>
@@ -15,6 +15,7 @@ const Main = () => {
         </div>
       </div>
     </div>
+    </main>
   )
 }
 
