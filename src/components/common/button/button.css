@@ -1,4 +1,4 @@
-.button {
+button {
     height: 40px;
     width: 10%;
     background-color:  hsl(12, 88%, 59%);
@@ -6,4 +6,5 @@
     border-radius: 20px;
     color: white;
     margin-right: 25px;
+    text-align: center;
 }

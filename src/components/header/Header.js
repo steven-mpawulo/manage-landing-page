@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../images/logo.svg'
 import './header.css'
+import Button from '../common/button/Button'
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
                 <li><a href="#Careers">Careers</a></li>
                 <li><a href="Community">Community</a></li>
             </ul>
-            <button className='get-started-button'>Get Started</button>
+           <Button buttonText={"Get Started"}/>
         </div>
     </header>
     
