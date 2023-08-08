@@ -3,6 +3,8 @@ import Illustration from '../../images/illustration-intro.svg'
 import './main.css'
 import Button from '../common/button/Button'
 import LiContainer from '../common/li_container/LiContainer'
+import CardForComment from '../common/comment_card/CommentCard'
+
 
 const Main = () => {
   return (
@@ -35,7 +37,7 @@ const Main = () => {
       <div className="third-section">
         <h3>What they've said</h3>
         <div className="wrapper-for-comments">
-          
+          <CardForComment/>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CommentCard = ({cardImage, cardTitle, cardMessage}) => {
+const CardForComment = ({cardImage, cardTitle, cardMessage}) => {
   return (
     <div className='comment-card'>
         <img src={cardImage} alt="avatar" className='card-image' />,
@@ -10,4 +10,4 @@ const CommentCard = ({cardImage, cardTitle, cardMessage}) => {
   )
 }
 
-export default CommentCard
+export default CardForComment
