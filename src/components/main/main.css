@@ -21,5 +21,9 @@ h1 {
 }
 
 .illustration {
-    width: 75%;
+    width: 95%;
+}
+
+.button-inner{
+    width: 100%;
 }
