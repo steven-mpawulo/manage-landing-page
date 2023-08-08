@@ -4,6 +4,9 @@ import './main.css'
 import Button from '../common/button/Button'
 import LiContainer from '../common/li_container/LiContainer'
 import CardForComment from '../common/comment_card/CommentCard'
+import AvatarAli from '../../images/avatar-ali.png'
+import AvatarAnisha from '../../images/avatar-anisha.png'
+import AvatarRichard from '../../images/avatar-shanai.png'
 
 
 const Main = () => {
@@ -37,7 +40,9 @@ const Main = () => {
       <div className="third-section">
         <h3>What they've said</h3>
         <div className="wrapper-for-comments">
-          <CardForComment/>
+          <CardForComment cardImage={AvatarAnisha} cardTitle={"Anisha Li"} cardMessage={"Your welcome"}/>
+          <CardForComment cardImage={AvatarAli} cardTitle={"Ali Bravo"} cardMessage={"Your welcome"}/>
+          <CardForComment cardImage={AvatarRichard} cardTitle={"Richard Watts"} cardMessage={"Your welcome"}/>
         </div>
       </div>
     </div>
