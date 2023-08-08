@@ -1,10 +1,19 @@
 import React from 'react'
 import Header from '../header/Header'
+import Illustration from '../../images/illustration-intro.svg'
 
 const Main = () => {
   return (
-    <div>
-        
+    <div className='main'>
+      <div className="first-scetion">
+        <div className="first-section-left">
+          <h1>Bring everyone together to build better products</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus sit, maxime alias et veritatis praesentium eos! Voluptatem a perspiciatis ipsa sapiente facilis doloribus, modi placeat dignissimos distinctio error voluptatibus.</p>
+        </div>
+        <div className="first-section-right">
+          <img src={Illustration} alt="illustration-intro" />
+        </div>
+      </div>
     </div>
   )
 }
