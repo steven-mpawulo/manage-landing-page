@@ -41,3 +41,16 @@ h1 {
 .second-section-right {
     width: 50%;
 }
+
+.third-section {
+    width: 100%;
+}
+.third-section h3 {
+    color: hsl(228, 39%, 23%);
+    text-align: center;
+}
+
+.wrapper-for-comments {
+    display: flex;
+    justify-content: space-around;
+}

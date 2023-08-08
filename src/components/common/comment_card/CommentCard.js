@@ -1,4 +1,5 @@
 import React from 'react'
+import './commentcard.css'
 
 const CardForComment = ({cardImage, cardTitle, cardMessage}) => {
   return (
