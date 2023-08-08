@@ -6,6 +6,7 @@
 
 h1 {
     color: hsl(228, 39%, 23%);
+    font-size: 40px;
 }
 
 .first-section {
@@ -14,15 +15,17 @@ h1 {
 }
 
 .first-section-left {
-    width: 50%;
+    width: 30%;
 }
 
 .first-section-right {
-    width: 50%;
+    width: 70%;
 }
 
 .illustration {
-    width: 95%;
+    width: 70%;
+    position: relative;
+    right: -200px
 }
 
 .button-inner{
