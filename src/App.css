@@ -1,0 +1,9 @@
+.App {
+    height: 100vh;
+    padding-top: 2%;
+    background-image: url('./images/bg-tablet-pattern.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
