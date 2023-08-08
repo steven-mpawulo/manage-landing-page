@@ -27,3 +27,17 @@ h1 {
 .button-inner{
     width: 100%;
 }
+
+.second-section {
+    display: flex;
+    width: 100%;
+}
+
+.second-section-left {
+    width: 50%;
+
+}
+
+.second-section-right {
+    width: 50%;
+}

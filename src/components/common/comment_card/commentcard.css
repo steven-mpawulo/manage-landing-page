@@ -1,0 +1,19 @@
+.comment-card {
+    background-color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+
+}
+
+.comment-card h3 {
+    color: hsl(228, 39%, 23%);
+}
+
+.comment-card p {
+    color: hsl(227, 12%, 61%);
+}
+
+.card-image {
+    position: relative;
+    left: 50px;
+    top: -10px
+}

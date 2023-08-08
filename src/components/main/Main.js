@@ -32,6 +32,12 @@ const Main = () => {
           </ol>
         </div>
       </div>
+      <div className="third-section">
+        <h3>What they've said</h3>
+        <div className="wrapper-for-comments">
+          
+        </div>
+      </div>
     </div>
     </main>
   )
