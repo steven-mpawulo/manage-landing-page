@@ -32,9 +32,42 @@ span {
 
 footer {
     display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: hsl(233, 12%, 13%);
 }
 
-.footer-first-container {}
-.footer-second-container {}
-.footer-third-container {}
-.footer-fourth-container {}
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+.footer-first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.container-for-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-fourth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-for-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="email"] {
+    margin-right: 10px;
+}

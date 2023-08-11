@@ -17,12 +17,17 @@ const Footer = () => {
       </div>
       <footer>
         <div className="footer-first-container">
+          <div className="container-for-logo">
           <img src={Logo} alt="logo" className='logo'/>
+          </div>
+
+          <div className="container-for-icons">
           <img src={FacebookIcon} alt="facebook-icon" />
           <img src={TwitterIcon} alt="twitter-con" />
           <img src={YoutubeIcon} alt="youtube-icon" />
           <img src={PinterestIcon} alt="pinterest-icon" />
           <img src={InstagramIcon} alt="instagram-icon" />
+          </div>
 
 
         </div>
@@ -42,8 +47,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-fourth-container">
+          <div className="container-for-input">
           <input type="email" placeholder='johndoe@gmail.com' />
           <button>Go</button>
+          </div>
           <p>&copy; 2023. All Rights Reserved</p>
         </div>
       </footer>
