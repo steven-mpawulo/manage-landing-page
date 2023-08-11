@@ -29,3 +29,12 @@
 span {
     display: block;
 }
+
+footer {
+    display: flex;
+}
+
+.footer-first-container {}
+.footer-second-container {}
+.footer-third-container {}
+.footer-fourth-container {}
