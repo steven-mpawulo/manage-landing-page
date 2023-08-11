@@ -1,7 +1,32 @@
+.li-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-first-container {
+    display: flex;
+    align-items: center;
+}
+
 .li-container h2 {
     color: hsl(228, 39%, 23%);
+
 }
 
 .li-container p {
 color: hsl(227, 12%, 61%);
+}
+.number-for-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    width: 12%;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.number-for-container p {
+    color: white;
 }

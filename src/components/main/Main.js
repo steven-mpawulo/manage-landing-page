@@ -30,11 +30,9 @@ const Main = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus error, cupiditate recusandae quis nisi ullam harum praesentium, labore explicabo veniam facere vero reprehenderit sunt! Corporis voluptas vel facere? Magnam, quod.</p>
         </div>
         <div className="second-section-right">
-          <ol>
-            <li><LiContainer title={"Track company-wide progress"}/></li>
-            <li><LiContainer title={"Advanced built-in reports"}/></li>
-            <li><LiContainer title={"Everything you need in one place"}/></li>
-          </ol>
+            <LiContainer title={"Track company-wide progress"} number={"01"}/>
+            <LiContainer title={"Advanced built-in reports"} number={"02"}/>
+            <LiContainer title={"Everything you need in one place"} number={"03"}/>
         </div>
       </div>
       <div className="third-section">
