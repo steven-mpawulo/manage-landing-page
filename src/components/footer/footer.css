@@ -1,19 +1,18 @@
 .fourth-section {
     display: flex;
     width: 100%;
+    height: 150px;
+    background-image: url("../../images/bg-simplify-section-desktop.svg");
+    background-position: center;
+    background-position: contain;
     background-color: hsl(12, 88%, 59%);
     align-items: center;
+    justify-content: space-around;
 }
 
 .fourth-section p {
     color: white;
-}
-
-.fourth-section-left-container {
-    width: 50%;
-}
-.fourth-section-right-container {
-    width: 50%;
+    font-size: 25px;
 }
 
 .fourth-container-button {
@@ -25,4 +24,8 @@
     color: hsl(12, 88%, 59%);;
     margin-right: 25px;
     text-align: center;
+}
+
+span {
+    display: block;
 }
