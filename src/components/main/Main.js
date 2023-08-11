@@ -47,8 +47,8 @@ const Main = () => {
         <div className="container-for-button">
         <Button buttonText={"Get Started"}/>
         </div>
-        
       </div>
+      
     </div>
     </main>
   )

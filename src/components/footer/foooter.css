@@ -1,4 +1,28 @@
-.header {
-    width: 100%;
+.fourth-section {
     display: flex;
+    width: 100%;
+    background-color: hsl(12, 88%, 59%);
+    align-items: center;
+}
+
+.fourth-section p {
+    color: white;
+}
+
+.fourth-section-left-container {
+    width: 50%;
+}
+.fourth-section-right-container {
+    width: 50%;
+}
+
+.fourth-container-button {
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid  white;
+    border-radius: 20px;
+    color: hsl(12, 88%, 59%);;
+    margin-right: 25px;
+    text-align: center;
 }
