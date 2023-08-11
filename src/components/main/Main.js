@@ -44,6 +44,10 @@ const Main = () => {
           <CardForComment cardImage={AvatarAli} cardTitle={"Ali Bravo"} cardMessage={"Your welcome"}/>
           <CardForComment cardImage={AvatarRichard} cardTitle={"Richard Watts"} cardMessage={"Your welcome"}/>
         </div>
+        <div className="container-for-button">
+        <Button buttonText={"Get Started"}/>
+        </div>
+        
       </div>
     </div>
     </main>

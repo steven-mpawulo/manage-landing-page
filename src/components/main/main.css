@@ -42,6 +42,10 @@ h1 {
 
 }
 
+ p {
+    color: grey;
+}
+
 .second-section-right {
     width: 50%;
 }
@@ -52,6 +56,17 @@ h1 {
 .third-section h3 {
     color: hsl(228, 39%, 23%);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-for-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .wrapper-for-comments {
